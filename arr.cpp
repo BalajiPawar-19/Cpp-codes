@@ -12,6 +12,7 @@ int main()
             //5 < 10 -- first case
             // 1 < 5 -- second case
             // one more comment added
+            // said by shubh
             smallest = arr[i];
         }
     }

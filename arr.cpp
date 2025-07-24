@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int num[5]={10,20,50,30,40};
+    int num[5]={10,25,50,30,40};
     int sum=0;
 
     for(int i=0; i<5;i++)

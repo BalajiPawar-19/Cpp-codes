@@ -1,22 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main() 
-{
-    int arr[10]={10,30,5,7,20,15,25,35,40,45};
-    int smallest = arr[0];
-    for(int i = 1; i<10; i++)
-    {
-        if(arr[i] < smallest)
-        {
-            //5 < 10 -- first case
-            // 1 < 5 -- second case
-            // one more comment added
-            // said by shubh
-            smallest = arr[i];
-        }
-    }
-    cout << "Smallest element in the array is: " << smallest << endl;
+int main() {
+    int num[5]={10,20,50,30,40};
+    int sum=0;
 
+    for(int i=0; i<5;i++)
+    {
+        sum = sum + num[i];
+    }
+    cout << "the sum of an array is="<< sum << endl;
     return 0;
 }
